@@ -128,3 +128,5 @@ Choose Difficulty:
 🔤 Word: _ _ _ _ _
 
 👉 Guess a letter:
+
+---
