@@ -128,6 +128,7 @@ Choose Difficulty:
 🔤 Word: _ _ _ _ _
 
 👉 Guess a letter:
+```
 
 ---
 
@@ -138,3 +139,20 @@ Choose Difficulty:
 [Open in Google Colab](https://colab.research.google.com/drive/1TIVORREMHUCvGS7pF1mGiF7NTNMkPgx4?usp=sharing)
 
 ---
+
+# 🚀 Future Improvements
+
+- Graphical User Interface (GUI)
+- Multiplayer Mode
+- Timer-Based Challenges
+- Sound Effects
+- Online Scoreboard
+- Database Integration
+
+---
+
+# 🙏 Conclusion
+
+This project helped in improving problem-solving skills and understanding of Python programming concepts through real-time game development.
+
+The Hangman Game project successfully combines creativity, logic building, and user interaction into a fun and educational application.
