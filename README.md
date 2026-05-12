@@ -96,6 +96,7 @@ Word: _ _ _ _ _
 
 👉 Guess a letter:
 
-👩‍💻 Developed By
+
+#👩‍💻 Developed By
 
 Sharmi.g.pinheiro
