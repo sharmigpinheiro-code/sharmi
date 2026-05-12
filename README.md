@@ -130,3 +130,11 @@ Choose Difficulty:
 👉 Guess a letter:
 
 ---
+
+# 🔴 Live Demo
+
+👉 Try the Project Here:
+
+[Open in Google Colab](https://colab.research.google.com/drive/1TIVORREMHUCvGS7pF1mGiF7NTNMkPgx4?usp=sharing)
+
+---
