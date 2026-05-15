@@ -1,158 +1,123 @@
 # 🎮 Hangman Game using Python
 
-## 👩‍💻 Developed By
-### Sharmi.g.pinheiro
-
-Developed as part of the **CodeAlpha Python Programming Internship Program**
-
----
-
-# 📌 Project Overview
-
-This project is a creative and interactive **Hangman Game** developed using Python.  
-The main objective of this project is to create a fun word-guessing game while demonstrating Python programming concepts in an engaging and user-friendly way.
-
-The game challenges players to guess hidden words letter by letter within limited attempts. To enhance creativity and improve user experience, several advanced features such as difficulty levels, hint systems, score tracking, replay functionality, and ASCII art animations have been implemented.
-
-This project showcases practical implementation of Python fundamentals including loops, conditional statements, dictionaries, lists, user input handling, and random module usage.
+<p align="center">
+  A fun and interactive word guessing game built using Python 🐍
+</p>
 
 ---
 
-# ✨ Features
+## 🌟 Project Overview
+The **Hangman Game** is a console-based Python project where the player has to guess a hidden word letter by letter within limited attempts.  
+This project demonstrates the use of:
+- Python fundamentals
+- Loops & Conditions
+- Functions
+- Lists & Strings
+- User input handling
+- Game logic implementation
 
-✅ Interactive Console-Based Gameplay  
-✅ Multiple Difficulty Levels (Easy, Medium, Hard)  
-✅ Smart Hint System  
-✅ ASCII Art Hangman Visualization  
-✅ Real-Time Score Tracking  
-✅ Replay Option  
-✅ User-Friendly Interface  
-✅ Input Validation for Better Accuracy  
-✅ Creative Emoji-Based Design  
-
----
-
-# 🛠️ Technologies Used
-
-- Python 
-- Google Colab
-- Random Module
+The game provides an engaging experience while improving logical thinking and problem-solving skills.
 
 ---
 
-# 🎯 Game Workflow
+## ✨ Key Features
 
-### Step 1:
-User enters their name.
-
-### Step 2:
-User selects the preferred difficulty level.
-
-### Step 3:
-The system randomly selects a hidden word.
-
-### Step 4:
-A hint related to the word is displayed.
-
-### Step 5:
-The player guesses letters one by one.
-
-### Step 6:
-Correct guesses reveal the word.
-
-### Step 7:
-Wrong guesses decrease remaining lives and update the Hangman ASCII art.
-
-### Step 8:
-The game calculates the score based on difficulty level.
-
-### Step 9:
-The player can replay the game after completion.
+✅ Random word generation  
+✅ Interactive gameplay experience  
+✅ Input validation system  
+✅ Limited attempts mechanism  
+✅ Win & Lose conditions  
+✅ Beginner-friendly Python project  
+✅ Console-based game interface  
 
 ---
 
-# 📚 Python Concepts Used
+## 🛠️ Technologies Used
 
-- Loops
-- Conditional Statements
-- Lists
-- Dictionaries
-- String Manipulation
-- User Input Handling
-- Randomization
-- Game Logic Development
+| Technology | Purpose |
+|------------|---------|
+| Python 🐍 | Core Programming Language |
+| VS Code 💻 | Code Editor |
+| Terminal ⚡ | Program Execution |
 
 ---
 
-# 💡 Creative Enhancements
+## 🎯 How the Game Works
 
-This project was enhanced with several creative features to improve the gameplay experience:
-
-⭐ Difficulty Selection System  
-⭐ Score Calculation Mechanism  
-⭐ Hint-Based Gameplay  
-⭐ Replay Functionality  
-⭐ ASCII Character Animation  
-⭐ Interactive User Interface  
-⭐ Emoji-Based Console Design  
-
-These enhancements make the project more interactive, engaging, and visually appealing compared to a basic Hangman implementation.
+1. The system selects a random hidden word
+2. The player guesses one letter at a time
+3. Correct guesses reveal the word
+4. Wrong guesses reduce remaining attempts
+5. The game ends when:
+   - The player guesses the word correctly 🎉
+   - All attempts are used ❌
 
 ---
 
-# ▶️ How to Run the Project
+## ▶️ Run the Project
 
-1. Open Google Colab or any Python IDE  
-2. Copy and paste the Python code  
-3. Run the program  
-4. Enter your name and choose difficulty  
-5. Start guessing the hidden word  
-6. Enjoy the game experience 🎮
+Open the project folder in VS Code and run:
 
----
-
-# 📷 Sample Output
-
-```text
-🎮 WELCOME TO HANGMAN GAME 🎮
-
-👤 Enter your name: Sharmi
-
-Choose Difficulty:
-1️⃣ Easy
-2️⃣ Medium
-3️⃣ Hard
-
-💡 Hint: Animal
-
-🔤 Word: _ _ _ _ _
-
-👉 Guess a letter:
+```bash
+python hangman.py
 ```
 
 ---
 
-# 🔴 Live Demo
+## 💻 Sample Gameplay
 
-👉 Try the Project Here:
+```text
+Word: _ _ _ _ _
+Guess a letter: a
 
-[Open in Google Colab](https://colab.research.google.com/drive/1TIVORREMHUCvGS7pF1mGiF7NTNMkPgx4?usp=sharing)
+Correct Guess ✅
 
----
-
-# 🚀 Future Improvements
-
-- Graphical User Interface (GUI)
-- Multiplayer Mode
-- Timer-Based Challenges
-- Sound Effects
-- Online Scoreboard
-- Database Integration
+Word: a _ _ _ _
+Remaining Attempts: 5
+```
 
 ---
 
-# 🙏 Conclusion
+## 📂 Project Structure
 
-This project helped in improving problem-solving skills and understanding of Python programming concepts through real-time game development.
+```text
+Hangman-Game/
+│
+├── hangman.py
+├── words.txt
+└── README.md
+```
 
-The Hangman Game project successfully combines creativity, logic building, and user interaction into a fun and educational application.
+---
+
+## 🚀 Future Enhancements
+
+🔹 Difficulty Levels  
+🔹 Score Tracking System  
+🔹 Multiplayer Mode  
+🔹 GUI Version using Tkinter  
+🔹 Sound Effects & Animations  
+
+---
+
+## 📸 Project Highlights
+
+✨ Interactive Console Game  
+✨ Real-time User Interaction  
+✨ Logic Building through Python  
+✨ Clean and Structured Code  
+
+---
+
+## 👨‍💻 Author
+
+# SHARMI.G.PINHEIRO
+
+📌 Python Internship Project  
+📌 Passionate about Programming & Creative Development
+
+---
+
+<p align="center">
+  ⭐ If you like this project, consider giving it a star ⭐
+</p>
